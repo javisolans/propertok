@@ -26,7 +26,7 @@ export default function Home() {
             <h1 className="text-5xl font-bold text-primary">Propertok</h1>
 
             <h2 className="py-6 text-5xl font-bold w-full">
-              Accede a los inmuebles que no están en Idealista.
+              Accede a los inmuebles que no están en Idealista
             </h2>
             <p className="pb-6">
               Usa Propertok para descubre el 80% de las propiedades ocultas en
