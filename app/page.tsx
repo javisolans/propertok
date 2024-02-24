@@ -3,7 +3,6 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-
     <main className="flex min-h-screen flex-col items-center justify-between">
       <div className="xl:pt-20 lg:pt-20 md:pt-20 hero min-h-screen bg-base-100">
         <div className="hero-content text-center">
@@ -29,8 +28,9 @@ export default function Home() {
               Accede a los inmuebles que no están en Idealista
             </h2>
             <p className="pb-6">
-              Usa Propertok para descubre el 80% de las propiedades ocultas en
-              TikTok, no disponibles en otros portales.
+              Con Propertok puedes acceder al 80% de las propiedades no
+              anunciadas en los portales principales, pero que se están
+              vendiendo a través de TikTok.
             </p>
             <p className="pb-6">
               ¡Apúntate para recibir notificaciones cuando lancemos Propertok y
