@@ -28,9 +28,9 @@ export default function Home() {
               Accede a los inmuebles que no están en Idealista
             </h2>
             <p className="pb-6">
-              Con Propertok puedes acceder al 80% de las propiedades no
-              anunciadas en los portales principales, pero que se están
-              vendiendo a través de TikTok.
+              El 80% de las propiedades no son anunciadas en los portales
+              principales. Con Propertok te damos acceso a las que se venden a
+              través de TikTok para que tengas un nuevo canal de compra.
             </p>
             <p className="pb-6">
               ¡Apúntate para recibir notificaciones cuando lancemos Propertok y
