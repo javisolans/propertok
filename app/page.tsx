@@ -5,12 +5,12 @@ export default function Home() {
   return (
 
     <main className="flex min-h-screen flex-col items-center justify-between">
-      <div className="pt-20 hero min-h-screen bg-base-100">
+      <div className="xl:pt-20 lg:pt-20 md:pt-20 hero min-h-screen bg-base-100">
         <div className="hero-content text-center">
           <div className="max-w-xl">
-            <div className="flex h-48 w-full justify-center lg:static lg:h-auto lg:w-auto lg:bg-none">
+            <div className="flex pt-10 pb-6 w-full justify-center lg:static lg:h-auto lg:w-auto lg:bg-none">
               <a
-                className="pointer-events-none flex place-items-center gap-2 py-8 lg:pointer-events-auto lg:p-0"
+                className="pointer-events-none flex place-items-center gap-2 lg:pointer-events-auto lg:p-0"
                 rel="noopener noreferrer"
               >
                 <Image
@@ -25,10 +25,10 @@ export default function Home() {
             </div>
             <h1 className="text-5xl font-bold text-primary">Propertok</h1>
 
-            <h2 className="pt-6 text-5xl font-bold w-full">
+            <h2 className="py-6 text-5xl font-bold w-full">
               Accede a los inmuebles que no están en Idealista.
             </h2>
-            <p className="py-6">
+            <p className="pb-6">
               Usa Propertok para descubre el 80% de las propiedades ocultas en
               TikTok, no disponibles en otros portales.
             </p>
