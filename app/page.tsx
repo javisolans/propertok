@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -34,8 +35,11 @@ export default function Home() {
               ¡Apúntate para recibir notificaciones cuando lancemos Propertok y
               aprovecha una OFERTA DE LANZAMIENTO LIMITADA ⤵️!
             </p>
+
             <div className="pb-6">
-              <button className="btn btn-primary">Avísame</button>
+              <Link href="https://tally.so/r/w8QMvz">
+                <button className="btn btn-primary">Avísame</button>
+              </Link>
             </div>
 
             {/* <label className="form-control w-full ">
