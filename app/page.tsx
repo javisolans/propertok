@@ -37,12 +37,14 @@ export default function Home() {
               aprovecha una OFERTA DE LANZAMIENTO LIMITADA ⤵️!
             </p>
 
-            <div className="pb-6">
+            <div>
               <Link href="https://tally.so/r/w8QMvz">
                 <button className="btn btn-primary">Avísame</button>
               </Link>
             </div>
-
+            <p className="pt-2 pb-6">
+              3 personas suscritas
+            </p>
             {/* <label className="form-control w-full ">
               <input
                 type="text"
@@ -62,13 +64,13 @@ export default function Home() {
               generador de transacciones inmobiliarias. En Propertok, buscamos
               facilitar y organizar el acceso a este tipo de inmuebles.
             </p>
-            <div className="border-2 rounded-3xl">
+            <div className="border-2 rounded-3xl py-2">
               <a
                 className="justify-center pointer-events-none flex place-items-center gap-2 py-8 lg:pointer-events-auto lg:p-0"
                 rel="noopener noreferrer"
               >
                 <Image
-                  src="/noticia.png"
+                  src="/noticia2.png"
                   alt="Propertok Logo"
                   className="dark:invert"
                   width={500}
@@ -77,11 +79,45 @@ export default function Home() {
                 />
               </a>
             </div>
+            <div className="pt-6">
+              <div className="border-2 rounded-3xl">
+                <a
+                  className="justify-center pointer-events-none flex place-items-center gap-2 py-8 lg:pointer-events-auto lg:p-0"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src="/noticia.png"
+                    alt="Propertok Logo"
+                    className="dark:invert"
+                    width={500}
+                    height={24}
+                    priority
+                  />
+                </a>
+              </div>
+            </div>
+            <div className="pt-6">
+              <div className="border-2 rounded-3xl">
+                <a
+                  className="justify-center pointer-events-none flex place-items-center gap-2 py-8 lg:pointer-events-auto lg:p-0"
+                  rel="noopener noreferrer"
+                >
+                  <Image
+                    src="/noticia3.png"
+                    alt="Propertok Logo"
+                    className="dark:invert"
+                    width={500}
+                    height={24}
+                    priority
+                  />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <p className="pb-6">
+      <p className="pb-20">
         Propertok is being developed by{" "}
         <a href="https://twitter.com/sopadesigns">@sopadesigns</a>.
       </p>
