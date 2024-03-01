@@ -13,7 +13,7 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <Image
-                  src="/logo_1.jpg"
+                  src="/logo_1.jpeg"
                   alt="Propertok Logo"
                   className="dark:invert"
                   width={60}
