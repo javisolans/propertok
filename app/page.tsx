@@ -30,7 +30,7 @@ export default function Home() {
               Discover homes from TikTok. Simple.
             </h2>
 
-            <ul className="text-justify list-disc	pb-10">
+            <ul className="text-justify list-disc	pb-10 p-2">
               <li className="p-2">
                 Intuitive and user-friendly interface that simplifies TikTok
                 property searches and saves time.
