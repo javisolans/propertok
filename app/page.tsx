@@ -70,11 +70,9 @@ export default function Home() {
             </label> */}
             <h2 className="pt-6 text-2xl font-bold w-full">Homes on Tiktok?</h2>
             <p className="py-6 text-justify">
-              Did you know that 80% of property sales happen outside of
-              traditional real estate websites? TikTok has emerged as a major
-              hub for real estate transactions. Here at Propertok, we are
-              dedicated to simplifying and streamlining access to these kinds of
-              properties.
+              TikTok has emerged as a major hub for real estate transactions.
+              Here at Propertok, we are dedicated to simplifying and
+              streamlining access to these kinds of properties.
             </p>
 
             <div className="pt-6">
